@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!----Css---->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     <title>MS2-News QUiz</title>
 </head>
 <body>
     <!----Quiz---->
-    <section>
+    <section class="quiz-app">
         <div class="intro">
             <h1>Global News Quiz</h1>
             <p>Test your knowledge of the news around the world.</p>
-            <button>Start Quiz</button>
+            <button id="start">Start Quiz</button>
         </div>
 
         <div class="quiz-container">
@@ -22,7 +22,7 @@
 
         <button id="previous">Previous</button>
         <button id="next">Next</button>
-        <button id="submit">Submit</button>
+        <button id="submit">Submit Quiz</button>
 
         <div id="results"></div>
 
@@ -30,6 +30,6 @@
     </section>
 
 <!----Javascript---->
-    <script src="app.js"></script>
+    <script src="assets/js/quiz.js"></script>
 </body>
 </html>
