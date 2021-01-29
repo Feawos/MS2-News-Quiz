@@ -35,18 +35,50 @@ img{
     opacity: .7;
 }
 /*----quiz-container ----*/
-
+.quiz-container{
+    position: relative;
+    height: 20rem;
+    margin-top: 4rem;
+}
 
 
 /*----quiz ----*/
-
-
+.question{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.answers{
+    margin-bottom: 2rem;
+    text-align: left;
+    display: inline-block;
+}
+.answers label{
+    display: block;
+    margin-bottom: 1rem;
+}
 /*----buttons ----*/
 button{
     padding: 2rem 4rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
     background-color: rgb(19, 179, 53);
     font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+button:hover{
+    background-color: darkgreen;
 }
 
-/*----Results ----*/
+/*----Pagination ----*/
+.slide{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+}
+.active-slide{
+    opacity: 1;
+    z-index: 2;
+}
