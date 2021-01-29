@@ -6,14 +6,34 @@ body{
     font-size: 10px;
     font-weight: 300;
     text-align: center;
-    color: blue;
+    color: rgb(12 51 18);
 }
 
 /*----quiz-app ----*/
-
-/*----Intro ----*/
-
-
+.quiz-app{
+    margin: 0;
+    padding: .5rem;
+    border: 0.5rem;
+}
+/*----Heading ----*/
+h1{
+    font-weight: 500;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0.1;
+}
+/*----Intro----*/
+h2{
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.1;
+}
+img{
+    width: 60%;
+    height: 60%;
+    opacity: .7;
+}
 /*----quiz-container ----*/
 
 
@@ -22,6 +42,11 @@ body{
 
 
 /*----buttons ----*/
-
+button{
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    background-color: rgb(19, 179, 53);
+    font-size: 1.5rem;
+}
 
 /*----Results ----*/
