@@ -7,12 +7,13 @@ body{
     font-weight: 300;
     text-align: center;
     color: rgb(12 51 18);
+    background-color: grey;
 }
 
 /*----quiz-app ----*/
 .quiz-app{
     margin: 0;
-    padding: .5rem;
+    padding: 0.5rem;
     border: 0.5rem;
 }
 /*----Heading ----*/
@@ -21,6 +22,7 @@ h1{
     font-size: 4rem;
     margin-top: 0;
     margin-bottom: 0.1;
+    background-color: rgb(116, 189, 6);
 }
 /*----Intro----*/
 h2{
@@ -37,20 +39,27 @@ img{
 /*----quiz-container ----*/
 .quiz-container{
     position: relative;
-    height: 20rem;
+    height: 25rem;
     margin-top: 4rem;
+    width: 100%;
 }
 
 
 /*----quiz ----*/
+#quiz{
+position: relative;
+margin-top: 4rem;
+height: 20rem;
+}
 .question{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 .answers{
     margin-bottom: 2rem;
     text-align: left;
     display: inline-block;
+    font-size: 2rem;
 }
 .answers label{
     display: block;
@@ -70,9 +79,7 @@ button:hover{
 
 /*----Pagination ----*/
 .slide{
-    position: absolute;
-    left: 0;
-    top: 0;
+    position: relative;
     width: 100%;
     z-index: 1;
     opacity: 0;

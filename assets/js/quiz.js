@@ -4,7 +4,8 @@ function setQuiz(){
     //variable to store the HTML output
     const output = [];
     //for each question
-    quizQuestions.forEach(currentQuestion, questionNumber => {
+    quizQuestions.forEach(
+        (currentQuestion, questionNumber) => {
             //variable to store list of possible answers
             const answers = [];
             //and for each available answer
@@ -27,6 +28,7 @@ function setQuiz(){
         }    
    );
     //combine output list into one string of HTML to put on the page
+    
     quizContainer.innerHTML = output.join('');
 }
 
@@ -61,6 +63,7 @@ function showResults(){
 
 function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');
+    slides[n].classList.add('active-slide');
     currentSlide = n;
     if(currentSlide === 0){
         previousButton.style.display = 'none';
@@ -86,7 +89,7 @@ function showPreviousSlide (){
 }
 
 //Variables
-const startButton = document.getElementById('start');
+//const startButton = document.getElementById('start');
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
@@ -188,12 +191,13 @@ setQuiz();
 
 //Pagination
 const previousButton = document.getElementById("previous");
-const nextButton = documment.getElementById("next");
-const slides = document.querySelectorAll(".slide");
+const nextButton = document.getElementById("next");
+const slides = document.querySelectorAll(".Slide");
 let currentSlide = 0;
+showSlide(currentSlide);
 
 //Event Listeners
-startButton.addEventListener('click', quizQuestions);
+//startButton.addEventListener('click', quizQuestions);
 
 showSlide(currentSlide);
 
