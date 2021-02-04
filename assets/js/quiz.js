@@ -30,6 +30,7 @@ function setQuiz(){
     //combine output list into one string of HTML to put on the page
     
     quizContainer.innerHTML = output.join('');
+
 }
 
 function showResults(){
@@ -88,10 +89,19 @@ function showPreviousSlide (){
     showSlide(currentSlide - 1);
 }
 
+
+/*function restartQuiz () {
+    showSlide(currentSlide);
+}*/
+
 //Variables
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
+const progressText = document.querySelector('#progressText');
+const progressBarFull = document.querySelector('#progressBarFull');
 const submitButton = document.getElementById('submit');
+//const restartButton = document.getElementById("restart");
+let questionCounter = 0;
 const quizQuestions = [
     {
         question: "The following are continents of the world except?",
@@ -184,6 +194,15 @@ const quizQuestions = [
         correctAnswer: "a"
     },
 ];
+  //progress bar
+const MAX_QUESTIONS = 10;
+function updateProgressBar () {
+    questionCounter++
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+}
+updateProgressBar();
+
 
 //Display quiz
 setQuiz();
@@ -197,6 +216,7 @@ let currentSlide = 0;
 showSlide(currentSlide);
 
 //Event Listeners
-submitButton.addEventListener('click', showResults);
-previousButton.addEventListener('click', showPreviousSlide);
-nextButton.addEventListener('click', showNextSlide);
+submitButton.addEventListener("click", showResults);
+previousButton.addEventListener("click", showPreviousSlide);
+nextButton.addEventListener("click", showNextSlide);
+//restartButton.addEventListener("click", setQuiz);

@@ -54,7 +54,24 @@ img{
     margin-top: 4rem;
     width: 100%;
 }   
+/*----progress-bar----*/
+#progressText{
+    font-size: 1rem;
+    margin-top: 0;
+}
 
+#progressBar{
+    width: 95%;
+    height: 0.5rem;
+    border:0.5rem solid rgb(6, 101, 189);
+    border-radius: 1rem;
+}
+#progressBarFull{
+    height: 100%;
+    background: rgb(116, 189, 6) ;
+    width: 0%;
+    font-size: 0.5rem;
+}
 
 /*----quiz ----*/
 #quiz{
@@ -80,12 +97,12 @@ background: #ffffff8f;
 /*----buttons ----*/
 button{
     font-family: 'Rubik', sans-serif;
-    padding: 1.5rem;
+    padding: 1.2rem;
     border-radius: 2rem;
     background-color: rgb(116, 189, 6);
     font-size: 1.5rem;
-    margin-bottom: 0rem;
-    margin-top: 0.5rem;
+    margin-bottom: 0;
+    margin-top: 0.2rem;
     cursor: pointer;
 }
 button:hover{
