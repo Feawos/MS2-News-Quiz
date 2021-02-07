@@ -1,45 +1,105 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Global News Quiz App
+### Version 1.0
 
-Welcome OluwafemiAwosanya,
+## App Location
+[Global News Quiz](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## How it works
+The App displays random questions related to happenings around the world with 3 answer options for user to choose from.
 
-## Gitpod Reminders
+## Objectives of the App
+The objective of the app is to raise user awareness of global happenings and test how conscious of global news a  user is.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Functionality of the App
+The App has a user friendly and easy to use layout, a header that displays the name of the app, an intro text that tells a user what the app does
+and slides of 10 questions that comes one after the other as the user progress.
+The app also has a progress bar that tells user how far they have come in the quiz, previous and next buttons for user to move slides, and a submit button that appears at the prompt of the last questions
+for the user to submit quiz.
+At the submission of the quiz, the app displays the quiz result to the user.
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+## Technologies used
+* HTML5
+* CSS3
+* Javascript
+* Balsamiq Wireframe
+* jQuery
+* Google Fonts
+* Git
+* GitPod
+* GitHub
+* Chrome DevTools
+* clipart-library.com
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Deployment
+The web-App has been deployed with the following steps;
 
-A blue button should appear to click: *Make Public*,
+* Log in on GitHub
+* Click on the repository you need to deploy
+* Go on "Settings"
+* Scroll down the page until you find the "GitHub pages" section
+* On "source" click on "none"
+* Select "master branch" from the dropdown menu
+* The page re-loads automatically
+* Scroll down again to "GithHub pages" section
+* You will now find a link that says "Your site is published at ..."
 
-Another blue button should appear to click: *Open Browser*.
+### Fork the code 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+To work on this code on your own, follow these steps;
 
-## Updates Since The Instructional Video
+* Log in on GitHub
+* Find the project repository
+* On the top-right of the page, you will find a button with the name "Fork"
+* Click on it and it will automatically fork the code to your GitHub
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Local Clone
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+To make a local clone of this web-app, follow these steps;
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Log in on GitHub
+* Find the Project repository
+* Locate a button with the name "code"
+* Click on the "code" button
+* On the dropdown selection,you will find a link to clone the code with HTTPS
+* Copy the HTTPS link
+* Open Git bash
+* Open the directory you want to work on the cloned code 
+* Type git clone followed by the previously copied HTTPS link
+* Press Enter
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing
+I tested the website on the following browsers;
+    * Chrome
+    * Edge
+    * Firefox
+    * Safari
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The user experience on all listed browsers is satisfying
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Bugs
+* Slides showing via dev tool but not showing in browser
+   * Bug due to a typo in code...Corrected.
+* Progress bar not updating as quiz progresses
+   * Bug due to slides function not called along with the update progress function...fixed    
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Credits
+* All texts, layout and design on this web-app created by me
+* The World globe used as background was taken from www.clipart-library.com
 
---------
+## Acknowledgment
+* My inspiration fro this project comes from my love for being up to date on current affairs and the need I believe for everyone to be aware
+of whats on the news.
+* My Mentor Spencer Bariball is of immense support from the start to finish of the project, he provided guidance and suggested good resources
+which all contributed to the success of this project.
+* Youtube pages like Dev Ed, Brian designs, Traversy and online resource like sitepoint inspired and contributed to the success of this project.
 
-Happy coding!
+
+
+
+
+
+
+
