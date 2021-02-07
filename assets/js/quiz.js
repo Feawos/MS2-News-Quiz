@@ -83,9 +83,15 @@ function showSlide(n) {
 }
 
 function showNextSlide (){
+    if (prevCount === 0){
+        updateProgressBar();
+    }else{
+        prevCount--;
+    }
     showSlide(currentSlide + 1);
 }
 function showPreviousSlide (){
+    prevCount++;
     showSlide(currentSlide - 1);
 }
 
@@ -212,6 +218,7 @@ const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
+let prevCount = 0;
 //Show first slide
 showSlide(currentSlide);
 
