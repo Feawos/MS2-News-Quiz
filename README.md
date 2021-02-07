@@ -2,12 +2,12 @@
 ### Version 1.0
 
 ## App Location
-[Global News Quiz](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/)
+[Global News Quiz](https://oluwafemiawosanya.github.io/MS2-News-Quiz/)
 
 ## Wireframe
-* [Mobile](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Mobile.pdf)
-* [Tablet](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Tablet.pdf)
-* [Desktop](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Desktop.pdf)
+* [Mobile](https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Mobile.pdf)
+* [Tablet](https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Tablet.pdf)
+* [Desktop](https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Desktop.pdf)
 
 ## How it works
 The App displays random questions related to happenings around the world with 3 answer options for user to choose from.
