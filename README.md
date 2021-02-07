@@ -4,6 +4,11 @@
 ## App Location
 [Global News Quiz](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/)
 
+## Wireframe
+[Mobile](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Mobile.pdf)
+[Tablet](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Tablet.pdf)
+[Desktop](https://github.com/https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Desktop.pdf)
+
 ## How it works
 The App displays random questions related to happenings around the world with 3 answer options for user to choose from.
 
@@ -72,10 +77,10 @@ To make a local clone of this web-app, follow these steps;
 
 ## Testing
 I tested the website on the following browsers;
-    * Chrome
-    * Edge
-    * Firefox
-    * Safari
+* Chrome
+* Edge
+* Firefox
+* Safari
 
 The user experience on all listed browsers is satisfying
 
@@ -90,7 +95,7 @@ The user experience on all listed browsers is satisfying
 * The World globe used as background was taken from www.clipart-library.com
 
 ## Acknowledgment
-* My inspiration fro this project comes from my love for being up to date on current affairs and the need I believe for everyone to be aware
+* My inspiration for this project comes from my love for being up to date on current affairs and the need I believe for everyone to be aware
 of whats on the news.
 * My Mentor Spencer Bariball is of immense support from the start to finish of the project, he provided guidance and suggested good resources
 which all contributed to the success of this project.
