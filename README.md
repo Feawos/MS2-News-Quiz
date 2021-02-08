@@ -82,6 +82,8 @@ I tested the website on the following browsers;
 * Firefox
 * Safari
 
+[Test Plan](https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/testdoc/MS2-TP.docx)
+
 The user experience on all listed browsers is satisfying
 
 ## Bugs
