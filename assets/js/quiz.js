@@ -59,13 +59,13 @@ function showResults(){
             }
         }
     );
-    resultsContainer.innerHTML = `${numCorrect} out of ${quizQuestions.length}`;
+    resultsContainer.innerHTML = `Your score: ${(numCorrect/quizQuestions.length) * 100}%`;
 }
 
 function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');
     slides[n].classList.add('active-slide');
-    currentSlide = n;
+    currentSlide = n; 
     if(currentSlide === 0){
         previousButton.style.display = 'none';
     }
