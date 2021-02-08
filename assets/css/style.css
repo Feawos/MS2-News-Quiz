@@ -133,22 +133,8 @@ button:hover{
 
 @media only screen and (min-width: 50.000rem){
     body{
-    position: fixed;
-    top: 0; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-family: 'Rubik', sans-serif;
-    font-size: 10px;
-    font-weight: 300;
-    text-align: center;
-    color: rgb(4 4 4);
-    background-color:#e7ea0b7a;
-    background-image: url("https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/img/globe.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 30rem;
-    background-position-y: top;
+    height: fit-content;
+    width: 100%;
 }
 
 }
