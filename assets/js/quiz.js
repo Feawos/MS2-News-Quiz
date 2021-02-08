@@ -96,17 +96,12 @@ function showPreviousSlide (){
 }
 
 
-/*function restartQuiz () {
-    showSlide(currentSlide);
-}*/
-
 //Variables
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const progressText = document.querySelector('#progressText');
 const progressBarFull = document.querySelector('#progressBarFull');
 const submitButton = document.getElementById('submit');
-//const restartButton = document.getElementById("restart");
 let questionCounter = 0;
 const quizQuestions = [
     {
@@ -226,4 +221,4 @@ showSlide(currentSlide);
 submitButton.addEventListener("click", showResults);
 previousButton.addEventListener("click", showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
-//restartButton.addEventListener("click", setQuiz);
+
