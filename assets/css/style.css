@@ -12,8 +12,8 @@ body{
     font-weight: 300;
     text-align: center;
     color: rgb(4 4 4);
-    background-color:#e7ea0b7a;;
-    background-image: url("/assets/img/globe.png");
+    background-color:#e7ea0b7a;
+    background-image: url("assets/img/globe.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30rem;
