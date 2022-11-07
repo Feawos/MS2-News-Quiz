@@ -2,7 +2,7 @@
 ### Version 1.0
 
 ## App Location
-[Global News Quiz](https://oluwafemiawosanya.github.io/MS2-News-Quiz/)
+[Global News Quiz](https://feawos.github.io/MS2-News-Quiz/)
 
 ## Wireframe
 * [Mobile](https://oluwafemiawosanya.github.io/MS2-News-Quiz/assets/wireframes/Mobile.pdf)
